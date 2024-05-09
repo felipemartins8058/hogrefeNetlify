@@ -1,0 +1,87 @@
+:root {
+    --white: #ffffff;
+    --whitesmoke: #F6F6F6;
+    --off-white: #FAF5EB;
+    --gray: #605c5a;
+    --black-900: #212529;
+    --black-800: #343a40;
+    --black-700: #495057;
+    --black-600: #6c757d;
+    --black-500: #adb5bd;
+    --black-400: #ced4da;
+    --black-300: #dee2e6;
+    --black-200: #e9ecef;
+    --black-100: #e9ecef;
+
+    --primary: #295F60;
+    --green-h: #D9DB2B;
+    --red-h: #DB0B25;
+    --blue-h: #C0E3E4;
+
+    --danger: #DC3545;
+    --success: #198754;
+    --warning: #FFC107;
+}
+
+:root{
+    --color-h1: var(--black-900);
+    --color-h2: var(--black-800);
+    --color-h3: var(--black-800);
+    --color-h4: var(--black-700);
+    --color-h5: var(--black-700);
+    --color-h6: var(--black-700);
+    --color-text: var(--black-900);
+    --color-caption: var(--black-900);
+    --color-placeholder: var(--black-500);
+    --color-title: var(--primary);
+    --color-subtitle: var(--black-600);
+    --color-label: var(--black-600);
+    --color-placeholder: var(--black-600);
+
+    --color-button-default: var(--primary);
+    --color-button-default-text: var(--white);
+
+    --color-button-red: var(--red-status);
+    --color-button-outline: var(--white);
+    --color-button-outline-border: var(--black-500);
+
+    --color-border-default: var(--black-300);
+    --color-border-light: var(--black-300);
+
+    --color-background-default: var(--white);
+    --color-background-light: var(--blue-h);
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    min-height: 100vh;
+    transition: color 0.5s, background-color 0.5s;
+    line-height: 1.6;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+        Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fcfcfc;
+}
+
+a {
+    text-decoration: none;
+}
+
+b{
+    font-weight: bold;
+}
+
+:host(.swiper-button-prev) .swiper-wrapper {
+    display: none;
+  }
