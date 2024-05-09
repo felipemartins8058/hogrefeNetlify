@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 import axios from 'axios'
 import Cookies from 'js-cookie'
 
-axios.defaults.baseURL = 'http://localhost:3000/';
+axios.defaults.baseURL = 'https://json-server-vercel-p94hxtqq8-projeto-inclusao.vercel.app/';
 let accessToken = () => (
     Cookies.get('access_token') ? Cookies.get('access_token') : 'empty token'
 )
